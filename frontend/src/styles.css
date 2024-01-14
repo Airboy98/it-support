@@ -23,6 +23,11 @@ body {
   text-align: center;
 }
 
+h2 {
+  padding: 0px;
+  margin: 0px;
+}
+
 table,
 td,
 th {
@@ -30,6 +35,13 @@ th {
   padding: 10px;
   margin: 10px;
   display: inline-block;
+}
+
+.internet table {
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid;
+  /* display: table; */
 }
 
 ul {
@@ -76,9 +88,9 @@ a:hover {
   /* background-color: #777; */
 }
 
-/* a:visited {
+a:visited {
   color: blue;
-} */
+}
 
 .collapsible-trigger {
   font-weight: bold;
